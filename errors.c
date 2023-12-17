@@ -12,7 +12,7 @@
  * (7) => When the stack it empty for pop.
  * (8) => When stack is too short for operation.
  */
-{
+int err{
 	va_list ag;
 	char *op;
 	int l_num;
